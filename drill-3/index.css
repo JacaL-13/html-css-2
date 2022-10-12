@@ -1,0 +1,85 @@
+body {
+    height: 150vh;
+}
+
+header {
+    background-color: #D8D8D8;
+    height: 8%;
+    /* width: auto; */
+    display: flex;
+    align-items: center;
+}
+
+div { /*logo*/
+    background-color: #5B8FDC;
+    height: 59%;
+    aspect-ratio: 1/1;
+    margin-left: 2%;
+}
+
+.wht { /*text*/
+    height: auto;
+    min-height: 20%;
+    background-color: white;
+    padding: 4%;
+    font-size: 14pt;
+}
+
+.colors {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: black; */
+    justify-content: flex-end;
+}
+
+.UN {
+    height: 20%;
+    background-color: #5B8FDC;
+}
+
+.MBlGr{
+    height: 20%;
+    background-color: #7BE0C3;
+}
+.YGCray{
+    height: 20%;
+    background-color: #C2E791;
+}
+.Corn{
+    height: 20%;
+    background-color: #F5E752;
+}
+
+.help {
+    margin-top: -7%;
+    margin-right: 1%;
+    /* height: 100px;
+    width: 100px;
+    border-radius: 50%; */
+    /* background-color: black; */
+    position: sticky;
+    bottom: 1%;
+    right: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+button {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 0px;
+    background-color: black;
+    color: white;
+    font-size: 40pt;
+}
+
+/*
+5B8FDC
+D8D8D8
+7BE0C3
+C2E791
+F5E752
+*/

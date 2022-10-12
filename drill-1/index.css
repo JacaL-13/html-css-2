@@ -1,0 +1,23 @@
+header {
+    background-color: #444444;
+    height: 20vh;
+}
+
+body {
+    background-color: #D8D8D8;
+}
+
+section {
+    margin: auto;
+    width: 80%;
+}
+
+div {
+    height: 70vh;
+    background-color: #EFEFEF;
+}
+
+footer {
+    background-color: #222222;
+    height: 10vh;
+}
